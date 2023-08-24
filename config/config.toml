@@ -7,14 +7,15 @@ host-allowlist = ["*"]                       # allow domain, default: localhost.
 min-gas-price = 0
 
 # permissioness
-permissions-accounts-contract-enabled = true
-permissions-accounts-contract-address = "0x0000000000000000000000000000000000008888"
+# permissions-accounts-contract-enabled = true
+# permissions-accounts-contract-address = "0x0000000000000000000000000000000000008888"
 # permissions-nodes-contract-enabled = true
 # permissions-nodes-contract-address = "0x0000000000000000000000000000000000009999"
 # permissions-nodes-contract-version = 2
 
 # rpc
 rpc-http-enabled = true # default false, needed
+rpc-http-max-request-content-length = 10242880
 rpc-http-host = "0.0.0.0" # optional
 rpc-http-port = 8545
 rpc-http-cors-origins = ["*"]
